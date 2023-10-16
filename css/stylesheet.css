@@ -356,8 +356,8 @@ body {
 }
 
 .resume-section-button-container:hover {
-	background: #5bed00;
-	opacity: 0.8;
+  background: #5bed00;
+  opacity: 0.8;
 }
 
 .resume-section-button-hyperlink {
@@ -370,29 +370,27 @@ body {
   font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
   font-weight: bold;
-	margin-top: 12px;
+  margin-top: 12px;
 }
 
-.counter-section-container{
-	width: 100%;
-	height: 850px;
-	margin-top: 850px;
-    background: #5bed00;
-	
+.counter-section-container {
+  width: 100%;
+  height: 850px;
+  margin-top: 850px;
+  background: #5bed00;
 }
 
-.title-subcontainer-and-contact-section-line{
-	position: absolute;
-	width: 100%;
-	height: 30%;
-	margin-top:30px;
-	margin-left: -30px;
-	
+.title-subcontainer-and-contact-section-line {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  margin-top: 30px;
+  margin-left: -30px;
 }
 .contact-section-title {
   font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  color:#000000;
+  color: #000000;
   font-weight: bold;
   font-size: 45px;
   margin-left: 620px;
@@ -403,138 +401,138 @@ body {
   border: none;
   background: #000000;
   margin-left: 720px;
-  margin-top:-20px;
+  margin-top: -20px;
 }
-.contact-section-form-container{
-width: 100%;
-height: 40%;
-margin-top: 220px;
-position: absolute;
+.contact-section-form-container {
+  width: 100%;
+  height: 40%;
+  margin-top: 220px;
+  position: absolute;
 }
-.contact-section-form-subcontainer{
-	width: 100%;
-	height: 100%;
-	margin-left: -30px;
+.contact-section-form-subcontainer {
+  width: 100%;
+  height: 100%;
+  margin-left: -30px;
 }
-.container-contact-section-input-fields-1{
-	margin-left: 440px;
+.container-contact-section-input-fields-1 {
+  margin-left: 440px;
 }
-.contact-section-input-fields-1{
-	width: 650px;
-	height: 30px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-1 {
+  width: 650px;
+  height: 30px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
+  font-size: 20px;
 }
-.contact-section-input-fields-1:hover{
-	border: 4px solid #FF0000;
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-1:hover {
+  border: 4px solid #ff0000;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.contact-section-input-fields-1:focus{
-	border: 4px solid #40cfff; 
-    outline: none; 
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-1:focus {
+  border: 4px solid #40cfff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.container-contact-section-input-fields-2{
-	margin-left: 440px;
-	margin-top:12px;
+.container-contact-section-input-fields-2 {
+  margin-left: 440px;
+  margin-top: 12px;
 }
-.contact-section-input-fields-2{
-	width: 650px;
-	height: 30px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-2 {
+  width: 650px;
+  height: 30px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
-}.container-contact-section-input-fields-2{
-	margin-left: 440px;
-	margin-top:12px;
+  font-size: 20px;
 }
-.contact-section-input-fields-2{
-	width: 650px;
-	height: 30px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.container-contact-section-input-fields-2 {
+  margin-left: 440px;
+  margin-top: 12px;
+}
+.contact-section-input-fields-2 {
+  width: 650px;
+  height: 30px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
+  font-size: 20px;
 }
-.contact-section-input-fields-2:hover{
-	border: 4px solid #FF0000;
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-2:hover {
+  border: 4px solid #ff0000;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.contact-section-input-fields-2:focus{
-	border: 4px solid #40cfff; 
-    outline: none; 
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-2:focus {
+  border: 4px solid #40cfff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.container-contact-section-input-fields-3{
-	margin-left: 440px;
-	margin-top:12px;
+.container-contact-section-input-fields-3 {
+  margin-left: 440px;
+  margin-top: 12px;
 }
-.contact-section-input-fields-3{
-	width: 650px;
-	height: 30px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-3 {
+  width: 650px;
+  height: 30px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
+  font-size: 20px;
 }
-.contact-section-input-fields-3:hover{
-	border: 4px solid #FF0000;
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-3:hover {
+  border: 4px solid #ff0000;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.contact-section-input-fields-3:focus{
-	border: 4px solid #40cfff; 
-    outline: none; 
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-3:focus {
+  border: 4px solid #40cfff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.container-contact-section-input-fields-4{
-	margin-left: 440px;
-	margin-top:12px;
+.container-contact-section-input-fields-4 {
+  margin-left: 440px;
+  margin-top: 12px;
 }
-.contact-section-input-fields-4{
-	width: 650px;
-	height: 30px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-4 {
+  width: 650px;
+  height: 30px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
+  font-size: 20px;
 }
-.contact-section-input-fields-4:hover{
-	border: 4px solid #FF0000;
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-4:hover {
+  border: 4px solid #ff0000;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.contact-section-input-fields-4:focus{
-	border: 4px solid #40cfff; 
-    outline: none; 
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-4:focus {
+  border: 4px solid #40cfff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.container-contact-section-input-fields-5{
-	margin-left: 440px;
-	margin-top:12px;
+.container-contact-section-input-fields-5 {
+  margin-left: 440px;
+  margin-top: 12px;
 }
-.contact-section-input-fields-5{
-	width: 650px;
-	height: 250px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
-
+.contact-section-input-fields-5 {
+  width: 650px;
+  height: 250px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	font-size: 20px;
+  font-size: 20px;
 }
-.contact-section-input-fields-5:hover{
-	border: 4px solid #FF0000;
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-5:hover {
+  border: 4px solid #ff0000;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
-.contact-section-input-fields-5:focus{
-	border: 4px solid #40cfff; 
-    outline: none; 
-    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
-    transition: border 0.3s, box-shadow 0.3s; 
+.contact-section-input-fields-5:focus {
+  border: 4px solid #40cfff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
+  transition: border 0.3s, box-shadow 0.3s;
 }
 .container-contact-section-button {
   width: 220px;
@@ -550,8 +548,8 @@ position: absolute;
 }
 
 .container-contact-section-button:hover {
-	background: RED;
-	opacity: 0.8;
+  background: RED;
+  opacity: 0.8;
 }
 
 .contact-section-button-hyperlink {
@@ -564,73 +562,69 @@ position: absolute;
   font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
   font-weight: bold;
-	margin-top: 12px;
+  margin-top: 12px;
 }
-.container-contact-section-closure{
-	height: 230px;
-	width: 100%;
-	position: absolute;
-
+.container-contact-section-closure {
+  height: 230px;
+  width: 100%;
+  position: absolute;
 }
-.subcontainer-contact-section-closure{
-	width: 100%;
-	height: 100%;
-	margin-top: 50px;
+.subcontainer-contact-section-closure {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
 }
-.text-and-image-container-of-the-contact-closure-section-sub-container-1{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	margin-left: 200px;
+.text-and-image-container-of-the-contact-closure-section-sub-container-1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 200px;
 }
-.contact-close-section-subcontainer-image-1{
-	width: 100px;
-	height: 100px;
-	margin-left: 10px;
+.contact-close-section-subcontainer-image-1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
 }
-.contact-closure-section-subcontainer-text-1{
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-closure-section-subcontainer-text-1 {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	  color: #666666;
+  color: #666666;
 }
-.text-and-image-container-of-the-contact-closure-section-sub-container-2{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	margin-top:-232px;
-	margin-left: 650px;
+.text-and-image-container-of-the-contact-closure-section-sub-container-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -232px;
+  margin-left: 650px;
 }
-.contact-close-section-subcontainer-image-2{
-	width: 100px;
-	height: 100px;
-	margin-left: 10px;
+.contact-close-section-subcontainer-image-2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
 }
 
-.contact-closure-section-subcontainer-text-2{
-	width: 20%;
-	margin-left: -60px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-closure-section-subcontainer-text-2 {
+  width: 20%;
+  margin-left: -60px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	  color: #666666;
+  color: #666666;
 }
-.text-and-image-container-of-the-contact-closure-section-sub-container-3{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	margin-left: 1100px;
-	margin-top: -232px;
+.text-and-image-container-of-the-contact-closure-section-sub-container-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: 1100px;
+  margin-top: -232px;
 }
-.contact-close-section-subcontainer-image-3{
-	width: 100px;
-	height: 100px;
-	margin-left: 10px;
+.contact-close-section-subcontainer-image-3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
 }
-.contact-closure-section-subcontainer-text-3{
-	margin-left: -40px;
-	font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-closure-section-subcontainer-text-3 {
+  margin-left: -40px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-	  color: #666666;
+  color: #666666;
 }
-
-
-
