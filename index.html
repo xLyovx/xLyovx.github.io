@@ -18,7 +18,13 @@
             ING. JESÚS CARREÑO
           </a>
         </div>
-        <div class="container-menu-navigation">
+		  
+        <div class="container-hamburgesa" id="ca"> 
+          <img class="hamburgesa" src="img/10.png"/>
+          </div>
+
+		  
+        <div class="container-menu-navigation" id="cmn">
           <ul class="unordered-list-of-navigation-menu">
             <li class="Navigation-menu-list-item">
               <a
@@ -49,6 +55,7 @@
             </li>
           </ul>
         </div>
+		  
       </div>
     </nav>
 
@@ -185,56 +192,26 @@
       </div>
     </div>
 
-    <div class="counter-section-container" id="csc">
-      <div class="title-subcontainer-and-contact-section-line">
-        <p class="contact-section-title">Contactame</p>
-        <hr class="contact-section-line" />
-      </div>
-      <div class="contact-section-form-container">
-        <div class="contact-section-form-subcontainer">
-          <div class="container-contact-section-input-fields-1">
-            <input
-              class="contact-section-input-fields-1"
-              type="text"
-              placeholder="Nombre"
-            />
-          </div>
-          <div class="container-contact-section-input-fields-2">
-            <input
-              class="contact-section-input-fields-2"
-              type="text"
-              placeholder="Apellido"
-            />
-          </div>
-          <div class="container-contact-section-input-fields-3">
-            <input
-              class="contact-section-input-fields-3"
-              type="text"
-              placeholder="E-Mail"
-            />
-          </div>
-          <div class="container-contact-section-input-fields-4">
-            <input
-              class="contact-section-input-fields-4"
-              type="text"
-              placeholder="Telefono de Contacto"
-            />
-          </div>
-          <div class="container-contact-section-input-fields-5">
-            <textarea
-              class="contact-section-input-fields-5"
-              type="text"
-              placeholder="Deja tu comentario..."
-            ></textarea>
-          </div>
-          <div class="container-contact-section-button">
-            <a class="contact-section-button-hyperlink" href="#">
-              <p class="contact-section-button">ENVIAR</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="counter-section-container"> 
+	
+      <div class="title-subcontainer-and-contact-section-line"> 
+       <p class="contact-section-title"> Contactame </p>
+         <hr class="contact-section-line"> 
+       </div>
+   <div class="contact-section-form-container" id="csc">
+   <div class="contact-section-form-subcontainer"> 	
+   <form id="my-form" action="https://formspree.io/f/maygaala" method="POST">
+      <div class="container-contact-section-input-fields-1"> <input type="text" name="nombre" placeholder="Nombre" class="contact-section-input-fields-1" required/></div>
+     <div class="container-contact-section-input-fields-2"> <input type="text" name="apellido"placeholder="Apellido" class="contact-section-input-fields-2" required/></div>
+     <div class="container-contact-section-input-fields-3"> <input type="text" name="telefono"placeholder="Telefono" class="contact-section-input-fields-3" required/></div>
+     <div class="container-contact-section-input-fields-4"> <input type="email" name="email"placeholder="E-Mail"class="contact-section-input-fields-4" required/> </div>
+     <div class="container-contact-section-input-fields-5"> <textarea type="textarea" name="comentario" placeholder="Deja tu comentario..." class="contact-section-input-fields-5" required></textarea> </div>
+     <div class="container-contact-section-button"> <button id="my-form-button" class="contact-section-button"> Enviar </button> </div>
+     <p id="my-form-status"></p>
+   </form>
+     </div>
+    </div>	
+   </div>  
 
     <div class="container-contact-section-closure">
       <div class="subcontainer-contact-section-closure">

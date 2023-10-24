@@ -12,6 +12,11 @@ body {
   z-index: 1000;
 }
 
+.container-hamburgesa{
+  display: none;
+}
+
+
 .navbar-subcontainer {
   width: 100%;
   margin-top: 20px;
@@ -38,20 +43,24 @@ body {
   opacity: 0.9;
 }
 
-.container-menu-navigation {
-  margin-left: 870px;
-  width: 100%;
-  margin-top: -50px;
-}
+	.container-menu-navigation{
+		display:none;
+		margin-top: 17vw;
+		width: 100%;
+		height: 100%;
+		background: #a9ad5d;
+	}
 
 .unordered-list-of-navigation-menu {
   list-style-type: none;
   overflow: hidden;
+	margin-left: -7vw;
 }
+
+
 .Navigation-menu-list-item {
-  display: inline-block;
-  text-align: center;
-  padding: 14px 16px;
+  display: block;
+  text-align: left;
   text-decoration: none;
 }
 .navigation-menu-hyperlink-label {
@@ -60,15 +69,15 @@ body {
     "Century Schoolbook L", "Times New Roman", "serif";
   color: #ffffff;
   font-weight: bold;
+  font-size: 14px;
   opacity: 0.7;
 }
 .navigation-menu-hyperlink-label:hover {
-  font-family: Baskerville, "Palatino Linotype", Palatino,
-    "Century Schoolbook L", "Times New Roman", "serif";
-  color: #ffffff;
+  color: #ffff00;
   font-weight: bold;
   opacity: 0.9;
 }
+
 .home-container {
   margin-top: 0px;
   width: 100%;
@@ -373,24 +382,25 @@ body {
   margin-top: 12px;
 }
 
-.counter-section-container {
-  width: 100%;
-  height: 850px;
-  margin-top: 850px;
-  background: #5bed00;
+.counter-section-container{
+	width: 100%;
+	height: 850px;
+	margin-top: 850px;
+    background: #5bed00;
 }
 
-.title-subcontainer-and-contact-section-line {
-  position: absolute;
-  width: 100%;
-  height: 30%;
-  margin-top: 30px;
-  margin-left: -30px;
+.title-subcontainer-and-contact-section-line{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	margin-top:30px;
+	margin-left: -30px;
+	
 }
 .contact-section-title {
   font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  color: #000000;
+  color:#000000;
   font-weight: bold;
   font-size: 45px;
   margin-left: 620px;
@@ -401,138 +411,130 @@ body {
   border: none;
   background: #000000;
   margin-left: 720px;
-  margin-top: -20px;
+  margin-top:-20px;
 }
-.contact-section-form-container {
-  width: 100%;
-  height: 40%;
-  margin-top: 220px;
-  position: absolute;
+
+.contact-section-form-container{
+width: 100%;
+height: 40%;
+margin-top: 220px;
+position: absolute;
 }
-.contact-section-form-subcontainer {
-  width: 100%;
-  height: 100%;
-  margin-left: -30px;
+.contact-section-form-subcontainer{
+	width: 100%;
+	height: 100%;
+	margin-left: -30px;
 }
-.container-contact-section-input-fields-1 {
-  margin-left: 440px;
+
+.container-contact-section-input-fields-1{
+	margin-left: 440px;
 }
-.contact-section-input-fields-1 {
-  width: 650px;
-  height: 30px;
-  font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-1{
+	width: 650px;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 20px;
+	font-size: 20px;
 }
-.contact-section-input-fields-1:hover {
-  border: 4px solid #ff0000;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-1:hover{
+	border: 4px solid #FF0000;
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.contact-section-input-fields-1:focus {
-  border: 4px solid #40cfff;
-  outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-1:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.container-contact-section-input-fields-2 {
-  margin-left: 440px;
-  margin-top: 12px;
+.container-contact-section-input-fields-2{
+	margin-left: 440px;
+	margin-top:12px;
 }
-.contact-section-input-fields-2 {
-  width: 650px;
-  height: 30px;
-  font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-2{
+	width: 650px;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 20px;
+	font-size: 20px;
+
 }
-.container-contact-section-input-fields-2 {
-  margin-left: 440px;
-  margin-top: 12px;
+.contact-section-input-fields-2:hover{
+	border: 4px solid #FF0000;
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.contact-section-input-fields-2 {
-  width: 650px;
-  height: 30px;
-  font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-2:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+.container-contact-section-input-fields-3{
+	margin-left: 440px;
+	margin-top:12px;
+}
+.contact-section-input-fields-3{
+	width: 650px;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 20px;
+	font-size: 20px;
 }
-.contact-section-input-fields-2:hover {
-  border: 4px solid #ff0000;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-3:hover{
+	border: 4px solid #FF0000;
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.contact-section-input-fields-2:focus {
-  border: 4px solid #40cfff;
-  outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-3:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.container-contact-section-input-fields-3 {
-  margin-left: 440px;
-  margin-top: 12px;
+.container-contact-section-input-fields-4{
+	margin-left: 440px;
+	margin-top:12px;
 }
-.contact-section-input-fields-3 {
-  width: 650px;
-  height: 30px;
-  font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-4{
+	width: 650px;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 20px;
+	font-size: 20px;
 }
-.contact-section-input-fields-3:hover {
-  border: 4px solid #ff0000;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-4:hover{
+	border: 4px solid #FF0000;
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.contact-section-input-fields-3:focus {
-  border: 4px solid #40cfff;
-  outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-4:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.container-contact-section-input-fields-4 {
-  margin-left: 440px;
-  margin-top: 12px;
+.container-contact-section-input-fields-5{
+	margin-left: 440px;
+	margin-top:12px;
 }
-.contact-section-input-fields-4 {
-  width: 650px;
-  height: 30px;
-  font-family: Baskerville, "Palatino Linotype", Palatino,
+.contact-section-input-fields-5{
+	width: 650px;
+	height: 250px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 20px;
+	font-size: 20px;
 }
-.contact-section-input-fields-4:hover {
-  border: 4px solid #ff0000;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-5:hover{
+	border: 4px solid #FF0000;
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
-.contact-section-input-fields-4:focus {
-  border: 4px solid #40cfff;
-  outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
-}
-.container-contact-section-input-fields-5 {
-  margin-left: 440px;
-  margin-top: 12px;
-}
-.contact-section-input-fields-5 {
-  width: 650px;
-  height: 250px;
-  font-family: Baskerville, "Palatino Linotype", Palatino,
-    "Century Schoolbook L", "Times New Roman", "serif";
-  font-size: 20px;
-}
-.contact-section-input-fields-5:hover {
-  border: 4px solid #ff0000;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
-}
-.contact-section-input-fields-5:focus {
-  border: 4px solid #40cfff;
-  outline: none;
-  box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5);
-  transition: border 0.3s, box-shadow 0.3s;
+.contact-section-input-fields-5:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
 }
 .container-contact-section-button {
   width: 220px;
@@ -548,21 +550,22 @@ body {
 }
 
 .container-contact-section-button:hover {
-  background: RED;
-  opacity: 0.8;
-}
-
-.contact-section-button-hyperlink {
-  text-decoration: none;
-  color: black;
-  font-size: 17px;
+	background: RED;
+	opacity: 0.8;
 }
 
 .contact-section-button {
   font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
   font-weight: bold;
-  margin-top: 12px;
+  color: black;
+  font-size: 17px;	
+	margin-top: -5px;
+	background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none; 
+  text-decoration: none;
 }
 .container-contact-section-closure {
   height: 230px;
@@ -627,4 +630,663 @@ body {
   font-family: Baskerville, "Palatino Linotype", Palatino,
     "Century Schoolbook L", "Times New Roman", "serif";
   color: #666666;
+}
+
+@media screen and (max-width: 1000px) {
+	
+   body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+		 }	
+	
+.nabvar-container {
+  width: 100%;
+  height: 10%;
+}
+
+.navbar-subcontainer {
+  top: 0;
+  width: 100%;
+  height: 70px;
+  margin-top: -18px;
+  background: #a9ad5d;
+  position: fixed;
+  z-index: 1000;
+
+}
+
+.logo-container {
+  margin-left: 10px;
+	margin-top: 30px;
+	position: absolute;
+}
+
+.logo {
+  font-size: 18px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+}
+
+.logo:hover {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  color: #ffff00;
+  opacity: 0.9;
+}
+   
+	
+	.container-hamburgesa{
+    display: block;
+	border: 2px solid white;
+	position: absolute;
+	width: 8%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	margin-top: 6vw;
+	margin-left: 85vw;
+	}
+	
+  .hamburgesa{
+  	width: 30px;
+  	height: 30px;
+	margin-left: 4px;
+	margin-top: 3px;
+
+}
+.container-hamburgesa:hover{
+	border: 2px solid red; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+	
+	
+	.container-menu-navigation{
+        margin-top: 17vw;
+		margin-left: 0vw;
+		width: 100%;
+		height: 100%;
+		background: #a9ad5d;
+	}
+.unordered-list-of-navigation-menu {
+  list-style-type: none;
+  overflow: hidden;
+	margin-left: -7vw;
+}
+.Navigation-menu-list-item {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+.navigation-menu-hyperlink-label {
+  text-decoration: none;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.navigation-menu-hyperlink-label:hover {
+  color: #ffff00;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.home-container {
+  margin-top: 0px;
+  width: 100%;
+  height: 380px;
+}
+.home-subcontainer {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/04.png");
+  background-size: cover;
+}
+
+.main-container {
+  width: 100%;
+  position: absolute;
+  margin-top: 20vw;
+}
+
+.main-title {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 12vw;
+}
+.main-line {
+  width: 8vw;
+  height: 3px;
+  border: none;
+  background: #5bed00;
+  margin-left: 46vw;
+}
+.main-description-field {
+  width: 68%;
+  margin-left: 20vw;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  color: #ffffff;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.main-button {
+  width: 150px;
+  height: 50px;
+  margin-left: 30vw;
+  margin-top: 20px;
+  position: absolute;
+  background-color: #5bed00;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+.main-button-hyperlink-tag {
+  text-decoration: none;
+  color: #000000;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+	font-size: 12px;
+}
+
+.container-knowledge-areas {
+  width: 100%;
+  height: 280vw;
+  margin-top: 20vw;
+}
+
+.subcontainer-knowledge-areas {
+  width: 100%;
+  height: 100%;
+  margin-top: 16vw;
+  position: absolute;
+}
+.main-title-knowledge-areas {
+  margin-top: -25vw;
+  margin-left: 22vw;
+  font-size: 20px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+	position: absolute;
+}
+
+.principal-line-knowledge-areas {
+  width: 8vw;
+  height: 3px;
+  border: none;
+  background: #5bed00;
+  margin-left: 44vw;
+  margin-top: -16vw;	
+  position: absolute;
+	
+}
+	
+  .knowledge-areas-content-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 10vw;
+  margin-left: -5vw;
+  position: absolute;
+}
+
+  .knowledge-areas-content-subcontainer-1 {
+  width: 80%;
+  height: 5%;
+  margin-left: 15vw;
+  position: absolute;
+}
+
+  .content-image-knowledge-areas-1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 25vw;
+  position: absolute;
+}
+
+  .content-title-knowledge-areas-1 {
+  font-size: 20px;
+  margin-top: 30vw;
+  margin-left: -5vw;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  text-align: center;
+}
+  .content-description-knowledge-areas-1 {
+  font-size: 14px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  text-align: center;
+  color: #666666;
+  margin-top: -10px;
+	
+}  
+  .knowledge-areas-content-subcontainer-2 {
+  width: 80%;
+  height: 5%;
+  margin-left: 15vw;
+  position: absolute;
+}
+
+  .content-image-knowledge-areas-2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 25vw;
+  margin-top: 65vw;
+  position: absolute;
+}
+
+  .content-title-knowledge-areas-2 {
+  font-size: 20px;
+  margin-top: 90vw;
+  margin-left: -5vw;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  text-align: center;
+}
+  .content-description-knowledge-areas-2 {
+  font-size: 14px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  text-align: center;
+  color: #666666;
+  margin-top: -10px;
+	
+}
+  .knowledge-areas-content-subcontainer-3 {
+  width: 80%;
+  height: 5%;
+  margin-left: 15vw;
+  position: absolute;
+}
+
+  .content-image-knowledge-areas-3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 25vw;
+  margin-top: 125vw;
+  position: absolute;
+}
+
+  .content-title-knowledge-areas-3 {
+  font-size: 20px;
+  margin-top: 155vw;
+  margin-left: -5vw;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  text-align: center;
+}
+  .content-description-knowledge-areas-3 {
+  font-size: 14px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  text-align: center;
+  color: #666666;
+  margin-top: -10px;
+	
+}  
+  .knowledge-areas-content-subcontainer-4 {
+  width: 80%;
+  height: 5%;
+  margin-left: 15vw;
+  position: absolute;
+}
+
+  .content-image-knowledge-areas-4 {
+  width: 100px;
+  height: 100px;
+  margin-left: 25vw;
+  margin-top: 190vw;
+  position: absolute;
+}
+
+  .content-title-knowledge-areas-4 {
+  font-size: 20px;
+  margin-top: 220vw;
+  margin-left: -5vw;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  text-align: center;
+}
+  .content-description-knowledge-areas-4 {
+  font-size: 14px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+  "Century Schoolbook L", "Times New Roman", "serif";
+  text-align: center;
+  color: #666666;
+  margin-top: -10px;
+	
+}
+  .container-development-and-experience-in {
+  width: 100%;
+  height: 82vw;
+  background: #5bed00;
+  position: absolute;
+}
+.title-container-and-main-line-of-development-and-experience-in {
+  width: 100%;
+  height: 50%;
+  margin-top: 10vw;
+}
+.main-development-degree-and-experience-in {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20vw;
+}
+.main-line-of-development-and-experience-in {
+  width: 8vw;
+  height: 3px;
+  border: none;
+  background: #000000;
+  margin-left: 42vw;
+  margin-top: -2vw;
+}
+.container-description-of-development-and-experience-in {
+  width: 80vw;
+  height: 25%;
+  margin-left: 10vw;
+  margin-top: 30px;
+}
+.content-description-of-development-and-experience-in {
+  color: #000000;
+  font-size: 14px;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  list-style-type: upper-roman;
+}
+	
+  .resume-section-container {
+  width: 100%;
+  height: 10vw;
+  margin-top: 89vw;
+  position: absolute;
+}
+.resume-section-subcontainer {
+  width: 100%;
+  height: 100%;
+  margin-top: 0vw;
+	position: absolute;	
+}
+.resume-section-title {
+  margin-left: 25vw;
+  margin-top: 8vw;
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.resume-section-button-container {
+  width: 50vw;
+  height: 15vw;
+  margin-left: 23vw;
+  margin-top: -2vw;
+  position: absolute;
+  background-color: #5bed00;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.resume-section-button-container:hover {
+	background: #5bed00;
+	opacity: 0.8;
+}
+
+.resume-section-button-hyperlink {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.resume-section-button {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+	margin-top: 5vw;
+}
+	.counter-section-container{
+	width: 100%;
+	height: 150vw;
+	margin-top: 140vw;
+    background: #5bed00;
+}
+
+.title-subcontainer-and-contact-section-line{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	margin-top:30px;
+	margin-left: -30px;
+	
+}
+.contact-section-title {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  color:#000000;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 42vw;
+}
+.contact-section-line {
+  width: 8vw;
+  height: 3px;
+  border: none;
+  background: #000000;
+  margin-left: 53vw;
+  margin-top: -3vw;
+}
+
+.contact-section-form-container{
+width: 100%;
+height: 40%;
+margin-top: 30vw;
+position: absolute;
+}
+.contact-section-form-subcontainer{
+	width: 100%;
+	height: 100%;
+	margin-left: -30px;
+}
+
+.container-contact-section-input-fields-1{
+	margin-left: 10vw;
+}
+.contact-section-input-fields-1{
+	width: 90vw;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+}
+
+.contact-section-input-fields-1:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+.container-contact-section-input-fields-2{
+	margin-left: 10vw;
+	margin-top: 2vw;
+}
+.contact-section-input-fields-2{
+	width: 90vw;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+
+}
+.contact-section-input-fields-2:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+.container-contact-section-input-fields-3{
+	margin-left: 10vw;
+	margin-top:12px;
+}
+.contact-section-input-fields-3{
+	width: 90vw;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+}
+.contact-section-input-fields-3:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+.container-contact-section-input-fields-4{
+	margin-left: 10vw;
+	margin-top:12px;
+}
+.contact-section-input-fields-4{
+	width: 90vw;
+	height: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+}
+.contact-section-input-fields-4:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+.container-contact-section-input-fields-5{
+	margin-left: 10vw;
+	margin-top:12px;
+}
+.contact-section-input-fields-5{
+	width: 90vw;
+	height: 40vw;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+}
+.contact-section-input-fields-5:focus{
+	border: 4px solid #40cfff; 
+    outline: none; 
+    box-shadow: 0px 0px 5px rgba(0, 116, 217, 0.5); 
+    transition: border 0.3s, box-shadow 0.3s; 
+}
+.container-contact-section-button {
+  width: 220px;
+  height: 50px;
+  margin-left: 25vw;
+  margin-top: 20px;
+  position: absolute;
+  background-color: RED;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.contact-section-button {
+  font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+  font-weight: bold;
+  color: black;
+  font-size: 17px;	
+	margin-top: -5px;
+	background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none; 
+  text-decoration: none;
+}
+
+.container-contact-section-closure{
+	height: 90vw;
+	width: 100%;
+	position: absolute;
+
+}
+.subcontainer-contact-section-closure{
+	width: 50%;
+	height: 50%;
+	margin-top: 50px;
+}
+.text-and-image-container-of-the-contact-closure-section-sub-container-1{
+	position: relative;
+	width: 30vw;
+	height: 10vw;
+	margin-left: 36vw;
+}
+.contact-close-section-subcontainer-image-1{
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+}
+.contact-closure-section-subcontainer-text-1{
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	  color: #666666;
+}
+.text-and-image-container-of-the-contact-closure-section-sub-container-2{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin-top: 0vw;
+	margin-left: 20vw;
+}
+.contact-close-section-subcontainer-image-2{
+	width: 50px;
+	height: 50px;
+  margin-top: 22vw;
+	margin-left: 25vw;
+}
+
+.contact-closure-section-subcontainer-text-2{
+	width: 80%;
+	margin-left: -4vw;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	  color: #666666;
+}
+.text-and-image-container-of-the-contact-closure-section-sub-container-3{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin-left: 20vw;
+	margin-top: 60vw;
+}
+.contact-close-section-subcontainer-image-3{
+	width: 50px;
+	height: 50px;
+	margin-left: 25vw;
+}
+.contact-closure-section-subcontainer-text-3{
+	margin-left: -2vw;
+	font-family: Baskerville, "Palatino Linotype", Palatino,
+    "Century Schoolbook L", "Times New Roman", "serif";
+	  color: #666666;
+}
+	
 }
